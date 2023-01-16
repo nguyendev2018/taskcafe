@@ -1,0 +1,52 @@
+.c-cake {
+    .c-cake__list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .c-cake__item {
+        width: 50%;
+        position: relative;
+    }
+
+    .c-cake__itembox {
+    }
+
+    .c-cake__itemlayer {
+        max-width: 520px;
+        width: calc(100% - 60px);
+        background-color: rgb(255, 255, 255);
+        opacity: 0.8;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding-left: 7.5%;
+        padding-top: 3.68%;
+        padding-bottom: 3.68%;
+    }
+
+    .c-cake__itemdot {
+        max-width: 110px;
+        width: 100%;
+        position: absolute;
+        top: -50px;
+        right: 0;
+    }
+
+    .c-cake__itemtitlesub {
+        font-family: Muli-Regular;
+        color: $primary;
+        font-size: 1.4rem;
+        line-height: 1.3;
+    }
+
+    .c-cake__itemtitle {
+        line-height: 1;
+        font-size: 3.6rem;
+        font-weight: 700;
+        letter-spacing: 0.1rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}

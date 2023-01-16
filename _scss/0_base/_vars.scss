@@ -1,0 +1,17 @@
+//baseWidth
+$base-width: 1000px;
+
+$main-fonts: "游明朝", YuMincho,serif;
+@font-face {
+    font-family: Muli-Bold;
+    src: url(../assets/fonts/muli/Muli-Bold.ttf);
+}
+
+
+@font-face {
+    font-family: Muli-Regular;
+    src: url(../assets/fonts/muli/muli-webfont.woff);
+}
+//color common
+$white: #fff;
+$primary: #642200;
